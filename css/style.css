@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    scrollbar-width: thin;
 }
 
 h1,h2,h3,h4,h5,h6,p,ul,li,ol,a,span,input,textarea{
@@ -215,6 +216,13 @@ h2{
     font-family: Fontspring-Bold;
 }
 /* -------- */
+.navbar-scroll{
+    position:fixed !important;
+    z-index:999999999;
+    width: 100% !important;
+    background-color:#0c1012;
+    padding: 0px 5%;
+}
 header{
     background-color:#0c1012;
 }
@@ -295,6 +303,10 @@ header  .hvr:hover:before,header .hvr:focus:before, header.hvr:active:before {
     right: 0;
   }
   
+/* -------- */
+.modal{
+    z-index: 999999999999999;
+}
 /* -------- */
 #carousel {
     position: relative;
